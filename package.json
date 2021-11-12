@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -r tsm src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.13",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "tsm": "^2.1.4",
+    "uvu": "^0.5.2"
+  }
+}
